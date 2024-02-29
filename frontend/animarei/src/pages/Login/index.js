@@ -3,14 +3,14 @@ import { View, Text } from 'react-native'
 
 import { styles } from './style'
 
-const Home = () => {
+const Login = () => {
     
   return (
     <View style={styles.container} >
-      <Text style={styles.text}>Home</Text>  
-     
+      <Text>Login</Text>
+      
     </View>
   )
 }
 
-export default Home;
+export default Login;
